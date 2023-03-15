@@ -10,7 +10,8 @@
 // const lastName = prompt("Введите фамилию");
 // alert(firstName + " " + lastName);
 
-// Операторы
+// Операторы-----------------------------------------------------------------
+
 // let currentYear = 2023
 // const birthYear = 1988
 // const age = currentYear + birthYear
@@ -34,7 +35,8 @@
 // console.log(currentYear)
 // console.log(c)
 
-// Типы данных
+// Типы данных-------------------------------------------------------------
+
 // const isProgrammer = true
 // const nam = 'Artem'
 // const age = 26
@@ -45,7 +47,7 @@
 //  console.log(typeof x)
 //  console.log(typeof null)
 
-// Приоретет операторов
+// Приоретет операторов---------------------------------------------------
 
 // const fullAge = 34
 // onst birthYear = 1988
@@ -55,7 +57,7 @@
 // const isFullAge = (currentYear - birthYear) >= fullAge
 // console.log(isFullAge)
 
-// Усовные операторы
+// Усовные операторы-------------------------------------------------------
 
 // const coursesStatus ='ready'
 
@@ -77,11 +79,11 @@
 //   console.log('Все не готово!')
 // }
 
-// Тернарные выражения
+// Тернарные выражения------------------------------------------------------------
 
 // isReady ? console.log('Все готово!') : console.log('Все не готово!')
 
-// Функции
+// Функции-------------------------------------------------------------------------
 
 // function calculatedAge(year) {
 //   return 2023 - year;
@@ -106,10 +108,10 @@
 // logInfoAbout('Elena', 1989);
 // logInfoAbout('Alexsander', 2019);
 
-// Массивы
+// Массивы-------------------------------------------------------------------
 
 //  const cars = ['Мазда','Мерседес','Форд']
-// // const cars = new Array('Мазда','Мерседес','Форд')
+// const cars = new Array('Мазда','Мерседес','Форд')
 // console.log (cars.length)
 
 // console.log (cars[0])
@@ -119,7 +121,7 @@
 // cars [0] = 'Porsche'
 //  console.log(cars)
 
-// Циклы
+// Циклы----------------------------------------------------------------------
 
 //  const cars = ['Мазда','Мерседес','Форд','Porsche']
 
@@ -132,7 +134,7 @@
 //   console.log(car)
 // }
 
-// Обьекты (групировка)
+// Обьекты (групировка)-----------------------------------------------------------
 
 // const person = {
 //   firstName: "Artem",
