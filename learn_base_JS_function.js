@@ -43,3 +43,29 @@
 // const pow2 = num => num  ** 2
 
 // console.log(pow2())
+
+//Параметры по умочанию------------------------------------------------
+
+// const sum = (a = 5 , b = a * 2) => a + b;
+// console.log(sum(41,2));
+// console.log(sum());
+
+// function sumAll(...all) {
+//   let result = 0;
+//   for (let num of all) {
+//     result += num;
+//   }
+//   return result;
+// }
+// const res = sumAll(1, 2, 3, 4, 5);
+// console.log(res)
+
+// Замыканиния-------------------------------------------------------------------
+// function createMember(name) {
+//   return function(lastName){
+//     console.log(name + lastName)
+//   }
+// }
+// const logWithLastName = createMember('Artem')
+// console.log(logWithLastName('Kotlov'))
+// console.log(logWithLastName('Kyky'))
